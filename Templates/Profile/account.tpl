@@ -9,16 +9,16 @@
     <th colspan="2">Change password</th>
 </tr></thead><tbody>
 <tr>
-    <th>Old password</th>
+    <th>Old password:</th>
     <td><input class="text" type="password" name="pw1" maxlength="30" /></td>
 </tr>
 
 <tr>
-    <th>New password</th>
+    <th>New password:</th>
     <td><input class="text" type="password" name="pw2" maxlength="30" /></td>
 </tr>
 <tr>
-    <th>New password</th>
+    <th>New password:</th>
     <td><input class="text" type="password" name="pw3" maxlength="30" /></td>
 </tr></tbody></table>
 <?php
@@ -31,14 +31,14 @@ echo "<span class=\"error\">".$form->getError('pw')."</span>";
 
     </tr></thead>
     <tbody><tr>
-        <td class="note" colspan="2">Please enter your old and your new e-mail addresses. You will then receive a code snippet at both e-mail addresses which you have to enter here.</td></tr>
+        <td class="note" colspan="2">Please enter your old and your new email address. You will then receive a verification code at both email addresses which you have to enter here.</td></tr>
     <tr>
-        <th>Old email</th>
+        <th>Old email:</th>
         <td><input class="text" type="text" name="email_alt" /></td>
     </tr>
     <tr>
 
-        <th>New email</th>
+        <th>New email:</th>
         <td><input class="text" type="text" name="email_neu" /></td>
     </tr></tbody></table>
 <?php
